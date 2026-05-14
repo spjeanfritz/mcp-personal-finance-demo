@@ -1,10 +1,11 @@
 import asyncio
+import os
 import httpx
 from mcp.server import Server
 from mcp.server.stdio import stdio_server
 from mcp import types
 
-BASE_URL = "http://localhost:8000"
+BASE_URL = os.environ.get("FINANCE_API_URL", "http://localhost:8000")
 
 server = Server("mcp-personal-finance-demo")
 
