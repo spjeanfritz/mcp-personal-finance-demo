@@ -40,7 +40,7 @@ async def list_tools() -> list[types.Tool]:
         ),
         types.Tool(
             name="get_categories",
-            description="List all available transaction categories.",
+            description="List all available transaction categories for the personal finance app.",
             inputSchema={"type": "object", "properties": {}},
         ),
         types.Tool(
