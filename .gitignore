@@ -1,0 +1,15 @@
+# Virtual environment created by uv run --directory
+.venv/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# uv.lock is intentionally NOT ignored — commit it for reproducible installs
+# when using uv run --directory (local mode).
